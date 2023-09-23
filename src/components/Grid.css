@@ -1,0 +1,10 @@
+/* Grid.css */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 40px); /* Adjust the grid size */
+    grid-template-rows: repeat(5, 40px); /* Adjust the grid size */
+    grid-gap: 1px;
+    width: 200px; /* Adjust the grid size */
+    height: 200px; /* Adjust the grid size */
+    margin: 0 auto;
+  }
